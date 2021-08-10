@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    font-family: 'Inter', 'Times New Roman', Times, serif;
+    background-color: wheat;
+}
+
+.theme-panel {
+    text-align: left;
+}
+
+.theme {
+    width: 1.5rem;
+    height: 1.5rem; 
+    border-radius: 100%;  
+    display: inline-block;       
+}
+
+.theme-coral {
+    background-color: coral;
+}
+
+.theme-ocean {
+    background-color: #004084;
+}
+
+.theme-starlight {
+    background-color: #3e2779;
+}
+
+.theme-select {
+    box-shadow:0px 0px 0px 0.3123rem black inset;
+}
+
+.container {
+    overflow-y: scroll;
+    margin: 10px auto;
+    width: 90%;
+    height: 35rem;
+    background-color: coral;
+}
+
+.container a {
+    color: #29dce3;
+}
+
+.user {
+    margin: 10px;
+    text-align: right;
+}
+
+.ai {
+    margin: 10px;
+    text-align: left;
+}
+
+.user-textbox {
+    margin-left: auto;
+    text-align: left;
+    padding: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    width: fit-content;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.ai-textbox {
+    padding: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    width: fit-content;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.user-textbox-Coral {
+    background-color: white;
+    color: black;
+}
+
+.ai-textbox-Coral {
+    background-color: black;
+    color: white;
+}
+
+.user-textbox-Ocean {
+    background-color: #0e59e5;
+    color: white;
+}
+
+.ai-textbox-Ocean {
+    background-color: #133455;
+    color: white;
+}
+
+.user-textbox-Starlight {
+    background-color: #a044d5;
+    color: white;
+}
+
+.ai-textbox-Starlight {
+    background-color: #413269;
+    color: white;
+}
+
+.input {
+    width: 75%;
+    margin: auto;
+    margin-top: -10px;
+}
+
+#message-box {
+    width: 75%;
+    height: 2rem;
+    padding: 12px 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+#message-box:focus {
+    background-color: lightgrey;
+    border: 3px solid #555;
+}
+
+#send-button {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 100%;
+    background-color: coral;
+    color: white;
+}
+
+.image-resize {
+    max-height:50%; 
+    max-width:50%;
+}
+
+.contact {
+    color: gray;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) 
+{
+    body {
+        font-size: 0.8rem;
+    }
+}

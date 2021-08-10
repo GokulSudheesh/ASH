@@ -1,0 +1,143 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?", "Hello", "Good day", "What's up?", "Sup", "Hey", "Hi you there?", "Wazzup"],
+         "responses": ["Hello!", "Good to see you again", "Hi there!", "Hey hows it hanging?", "Sup", "Hey! My favourite human!"],
+         "context": [""]
+        },
+        {"tag": "positive",
+         "patterns": ["I am fine.", "I am doing great.", "I am good.", "I am happy."],
+         "responses": ["Glad to hear!", "Yay!"],
+         "context": [""]
+        },
+        {"tag": "fine",
+         "patterns": ["How are you?", "How are you doing?", "Are you fine?", "How is it hanging?", "How is it going?"],
+         "responses": ["Im fine, thanks for asking", "I am doing good. Hope you are too!", "Im fine, hope you are too.", "Im fine. :D"],
+         "context": [""]
+        },
+        {"tag": "identity",
+         "patterns": ["Who are you?", "What are you?", "What is your name?", "Name", "Who is this?"],
+         "responses": ["My name is Ash. As you can see I am a chat bot.", "Name's Ash. Just Ash."],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["options"],
+         "responses": ["Try these commands:<br>Joke<br>Fact<br>Dog fact<br>Cat fact<br>News {health, tech, business, sports, entertainment}<br>Cute {dog/cat} pics<br>Quote"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["What can you do?", "What is your purpose?", "How can you help me?", "What is your job?", "How will you be of use?", "help"],
+         "responses": ["I can crack a joke for ya, tell you some facts, send you the latest news or motivate you through some inspirational quotes. Oh also send some cute cat/dog pics.", "Highly skilled at cracking jokes. You will laugh your brains out. I can also tell you facts, inspirational quotes and some news I guess. Oh also send some cute cat/dog pics."],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Catch you later."],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "See you later alligator."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thanks a lot", "Thank you so much"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "No problem!", "Glad to help."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you.", "Sorry, I didn't catch that.", "Not sure I understand.", "Godzilla had a stroke trying to read that."],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["What's the time?", "Time?", "What day is it?", "Day?"],
+         "responses": ["time"],
+         "context": [""]
+        },
+        {"tag": "rolled",
+         "patterns": ["deez", "Candice", "Tulips", "Do you like Imagine Dragons?", "I love dragons"],
+         "responses": ["<a href=\"https://youtu.be/dQw4w9WgXcQ\">https://youtu.be/dQw4w9WgXcQ</a>"],
+         "context": [""]
+        },
+        {"tag": "bored",
+         "patterns": ["I am bored.", "Do you have any games?", "Games", "I want to play something.", "I want to play a game."],
+         "responses": ["<a href=\"https://gokulsudheesh.github.io/minmax/\">Check this out!</a>", "<a href=\"https://www.google.com/doodles?q=interactive\">Check this out!</a>"],
+         "context": [""]
+        },
+        {"tag": "sad",
+         "patterns": ["I am sad.", "I am not happy.", "I don't feel like myself.", "I am feeling down.", "Sad", "I am just not in the mood right now."],
+         "responses": ["It is okay to feel this way. There are people who love you and care for you.", "I know you probably do not feel like it right now but just go take a walk outside."],
+         "context": [""]
+        },
+        {"tag": "encouragement",
+         "patterns": ["I can't do it.", "I cannot do this right now.", "I am not qualified.", "I want to give up.", "I am ready to give up."],
+         "responses": ["You can do this! You went through a lot of hard work just to get here. Don't give up now.", "A lot of people believe in you. I know this is coming from a stupid chat bot but you are amazing and I believe in you!", "Just close your eyes and take a deep breath. You can do it! Believe in yourself!"],
+         "context": [""]
+        },
+        {"tag": "jokes",
+         "patterns": ["Say something funny.", "Say a joke.", "Tell a joke.", "Tell me a joke.", "Joke.", "Crack a joke.", "Tell a joke for me.", "Send me a joke"],
+         "responses": ["jokes"],
+         "context": [""]
+        },
+        {"tag": "fact",
+         "patterns": ["Say a fact", "Say something interesting", "Fact", "Tell me a fact", "Tell me something interesting.", "Enlighten me", "Send me a fact"],
+         "responses": ["useless fact"],
+         "context": [""]
+        },
+        {"tag": "dogfact",
+         "patterns": ["Dog fact", "Tell me a dog fact.", "Say a dog fact.", "Dogs", "Fact on dogs", "Send me a dog fact."],
+         "responses": ["dog fact"],
+         "context": [""]
+        },
+        {"tag": "catfact",
+         "patterns": ["Cat fact", "Tell me a cat fact.", "Say a cat fact.", "Cats", "Fact on cats", "Send me a cat fact."],
+         "responses": ["cat fact"],
+         "context": [""]
+        },
+        {"tag": "cutecat",
+         "patterns": ["cute cat pics", "send me cute cat pics", "show cute cat", "cute cats"],
+         "responses": ["cute cat"],
+         "context": [""]
+        },
+        {"tag": "cutedog",
+         "patterns": ["cute dog pics", "send me cute dog pics", "show cute dog", "cute dogs"],
+         "responses": ["cute dog"],
+         "context": [""]
+        },
+        {"tag": "cute",
+         "patterns": ["cute pics", "send me cute pics", "show cute", "cute", "show me something cute"],
+         "responses": ["cute"],
+         "context": [""]
+        },
+        {"tag": "quote",
+         "patterns": ["Say a quote", "Quote", "Tell me an inspirational quote.", "Say something inspirational.", "Send me a quote."],
+         "responses": ["quote"],
+         "context": [""]
+        },
+        {"tag": "news",
+         "patterns": ["What is happening?", "Give me some latest news", "News", "What is going on in this world?", "Send me the latest news.", "Send me news."],
+         "responses": ["news"],
+         "context": [""]
+        },
+        {"tag": "healthnews",
+         "patterns": ["What is happening in medicine?", "Give me some latest news on health.", "Health News", "medical news", "What is going on in medicine?", "Send me the latest news on health.", "Send me news on health."],
+         "responses": ["health"],
+         "context": [""]
+        },
+        {"tag": "sportsnews",
+         "patterns": ["What is happening in sports?", "Give me some latest news on sports.", "Sports News", "What is going on in sports?", "Send me the latest news on sports.", "Send me news on sports."],
+         "responses": ["sports"],
+         "context": [""]
+        },
+        {"tag": "businessnews",
+         "patterns": ["What is happening in business?", "Give me some latest news on business.", "business News", "What is going on in business?", "Send me the latest news on business.", "Send me news on business."],
+         "responses": ["business"],
+         "context": [""]
+        },
+        {"tag": "technologynews",
+         "patterns": ["What is happening in technology?", "Give me some latest news on technology.", "technology News", "tech news", "What is going on in technology?", "Send me the latest news on technology.", "Send me news on technology."],
+         "responses": ["technology"],
+         "context": [""]
+        },
+        {"tag": "entertainmentnews",
+         "patterns": ["What is happening in entertainment?", "Give me some latest news on entertainment.", "entertainment News", "Celebrity news", "What is going on in entertainment?", "Send me the latest news on entertainment.", "Send me news on entertainment."],
+         "responses": ["entertainment"],
+         "context": [""]
+        }
+    ]
+}

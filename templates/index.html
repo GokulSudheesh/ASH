@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASH</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='index.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    </head>
+    <body>
+        <div class="theme-panel">
+            <div id = "Coral" class="theme theme-coral theme-select"></div>
+            <div id = "Ocean" class="theme theme-ocean"></div>
+            <div id = "Starlight" class="theme theme-starlight"></div>
+        </div>
+        <div class="container">
+            <!-- <div class="ai"><div class="ai-textbox">Hiiii</div></div>
+            <div class="user"><div class="user-textbox">Hiiii</div></div> -->
+        </div>
+        <div class="input">
+            <input type="text" name="message" id="message-box" placeholder="Type a message">
+            <!-- <input type="submit" name="send" id="send-button" value=""><i class="fas fa-paper-plane"></i> -->
+            <button type="button" id="send-button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+        <div class="contact-me">
+            <a href="https://ae.linkedin.com/in/gokul-sudheesh-kumar-450587163"><i class="contact fab fa-linkedin"></i></a>
+            <a href="https://github.com/GokulSudheesh"><i class="contact fab fa-github-square"></i></a>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ url_for('static',filename='index.js') }}" charset="utf-8"></script>
+    </body>
+</html>
