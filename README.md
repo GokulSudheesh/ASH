@@ -11,7 +11,7 @@ A simple chat bot.<br>
 <img src="GitHubimages/NEWS.JPG">
 
 ### Good vibes
-<img src="GitHubimages/CUTE.JPG">
+<img src="GitHubimages/CUTECD.JPG">
 
 ### API's used
 <a href="https://github.com/KegenGuyll/DadJokes_API">Dad jokes</a><br>
