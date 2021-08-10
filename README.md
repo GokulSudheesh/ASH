@@ -10,6 +10,9 @@ A simple chat bot.<br>
 ### Get the latest news
 <img src="GitHubimages/NEWS.JPG">
 
+### Good vibes
+<img src="GitHubimages/CUTE.JPG">
+
 ### API's used
 <a href="https://github.com/KegenGuyll/DadJokes_API">Dad jokes</a><br>
 <a href="https://github.com/sameerkumar18/useless-facts-api">Useless fact</a><br>
