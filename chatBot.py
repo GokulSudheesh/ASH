@@ -6,6 +6,7 @@ import json
 from random import choice
 
 words = np.load("words.npy")
+words_len = len(words)
 classes = np.load("classes.npy")
 ignore = [".", "?","!",","]
 
@@ -27,12 +28,12 @@ def encode_sentence(sentence):
 
 def get_response(sentence):
     sentence = encode_sentence(sentence)
-    comparison = sentence == np.array([0]*len(words))
+    comparison = sentence == np.array([0]*words_len)
     if (comparison.all()):
         for intent in intents["intents"]:
             if intent["tag"] == "noanswer":
                 return choice(intent["responses"])
-    result = model.predict(sentence.reshape(-1, 118))
+    result = model.predict(sentence.reshape(-1, words_len))
     tag = classes[np.argmax(result, axis=1)[0]]
     for intent in intents["intents"]:
         if intent["tag"] == tag:
